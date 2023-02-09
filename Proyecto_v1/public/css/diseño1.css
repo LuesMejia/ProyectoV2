@@ -1,0 +1,164 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-image: url('../views/fondogris.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar{
+  height: 80px;
+  width: 100%;
+  background: rgba(8, 8, 8, 0.4);
+}
+
+.logo{
+  width: 140px;
+  height: auto;
+  padding: 20px 100px;
+}
+
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  Line-height: 80px;
+}
+
+.navbar ul li a{
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+color: white;
+padding: 6px 13px;
+text-decoration: none;
+transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background:#35B729;
+border-radius: 10px;
+}
+
+
+#start {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  font-size: 75px;
+  color: #342c2a; 
+ -webkit-animation: slide 1.5s ease-in-out forwards;
+        animation: slide 1.5s ease-in-out forwards;
+
+}
+
+#slide1, #slide2, #slide3, #slide4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  background:-webkit-linear-gradient(#00aff9,#0086c3);
+  background: linear-gradient(#00aff9,#0086c3);
+  color: #342c2a; 
+  font-size: 75px;
+}
+
+img {
+  text-align: center;
+  margin: 0;
+  height: 400px;
+  width: 600px;
+}
+
+.wrapper {
+  margin: 0 auto;	
+  margin-block: -350px;
+  margin-left: 900px;
+}
+
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  background: #282929;
+  box-shadow: 0px 0px 40px rgba(0,0,0,0.6);
+  border: 1px solid #fff;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0px;
+  left: -140px;
+  margin: 0;
+
+  padding: 0;
+}
+li{
+color: transparent;
+}
+.btn {
+  float: left;
+  margin: 10px;
+  margin-left: -10px;
+  width: 120px;
+  height: 63px;
+  text-align: center;
+  -webkit-transition: 0.1s ease-in;
+          transition: 0.1s ease-in;
+}
+
+.btn a img {
+  display: block; 
+  text-decoration: none;
+  height: 63px;
+  width: 120px;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.btn:hover {
+  -webkit-transition: 0.1s ease-in;
+          transition: 0.1s ease-in;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+
+#slide1:target, #slide2:target, #slide3:target, #slide4:target {
+font-size: 75px; opacity: 1;
+}
+
+.contenedorp{
+  display:flex;
+  margin-top: 200px;
+  margin-left: 60px;
+  height: 300px;
+  width: 600px;
+}
+
+p{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
+  width: 600px;
+  font-family: 'Times New Roman', Times, serif;
+}

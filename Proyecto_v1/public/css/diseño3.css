@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.wrapper{
+    background-image: url('../views/fondogris.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.logo{
+	width: 140px;
+    height: auto;
+    padding: 720px 650px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    Line-height: 80px;
+ }
+
+ .navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background:#35B729;
+	border-radius: 10px;
+}
+
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+
+.center .buttons{
+	margin: 35px 280px;
+}
+
+.buttons button{
+	height: 50px;
+	width: 190px;
+    margin-left: 100px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #f7f7f7;
+	background: #35B729;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #35B729;
+	border-radius: 25px;
+	transition: .4s;
+}
+
+
+
+.buttons button:hover{
+	background:#35B729;
+}
